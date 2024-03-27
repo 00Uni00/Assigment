@@ -20,6 +20,16 @@
     <h3>Open in Visual Studio:</h3>
     <p>Navigate to the extracted folder and open the solution file (.sln) using Visual Studio.</p>
   </li>
+
+  <li>
+    <h3>Create Database in SSMS:</h3>
+    <ul>
+      <li>Open SQL Server Management Studio (SSMS).</li>
+      <li>Connect to your SQL Server instance.</li>
+      <li>Create a new database with a suitable name.</li>
+      <li>Note the database name and ensure it matches the connection string in your application configuration.</li>
+    </ul>
+  </li>
   
   <li>
     <h3>Add Connection String:</h3>
@@ -30,15 +40,7 @@
     </ul>
   </li>
   
-  <li>
-    <h3>Create Database in SSMS:</h3>
-    <ul>
-      <li>Open SQL Server Management Studio (SSMS).</li>
-      <li>Connect to your SQL Server instance.</li>
-      <li>Create a new database with a suitable name.</li>
-      <li>Note the database name and ensure it matches the connection string in your application configuration.</li>
-    </ul>
-  </li>
+
   
   <li>
     <h3>Apply Migrations:</h3>
